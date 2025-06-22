@@ -1,0 +1,9 @@
+# Keep asking the user for input until they enter a number between 1 and 10.
+
+num = 5
+
+while True:
+    num = int(input("Enter a number between 1 and 10: "))
+    if num > 1 and num < 10:
+        break
+
