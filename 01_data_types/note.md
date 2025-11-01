@@ -2,6 +2,10 @@
 
 - Number : 1234, 3.14, 3+4j, 0b111, Decomal(), Fraction()
 - String : 'spam', "Bob's", ...
+- complex : 
+- bool : 
+- float : 
+
 - List : []
 - Tuple : ()
 - Dictionary : {}
@@ -10,5 +14,4 @@
 
 - File : open('file.txt')
 
-- Boolean :
 - None : 

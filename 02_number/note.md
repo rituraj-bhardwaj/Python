@@ -19,7 +19,7 @@
 5. min()
 
 - Math module : import math
-1. math.sqrt(16) = 4.0
+1. math.sqrt(16) = 4.0 => float answer
 2. math.ceil(3.2) = 4, math.ceil(-3.2) = -3
 3. math.floor(3.2) = 3, math.floor(-3.2) = -4
 4. math.pi = 3.141592653....

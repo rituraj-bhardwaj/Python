@@ -1,8 +1,8 @@
 # Determine if a fruit is ripe, overripe, or unripe based on its color. (e.g., Banana: Green - Unripe, Yellow - Ripe, Brown - Overripe)
 
 
-fruit = 'Banana'
-colour = input("Enter colour of this fruit: ")
+fruit = input("Enter fruit name: ")
+colour = input(f"Enter colour of this {fruit}: ")
 
 if colour.lower() == 'green':
     print("Unripe")

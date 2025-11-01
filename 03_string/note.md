@@ -21,14 +21,14 @@ Strings are **immutable**, meaning once created, they cannot be changed.
 text = "hello World"
 text.lower()           # 'hello world'
 text.upper()           # 'HELLO WORLD'
-text.title()           # 'Hello World'
-text.capitalize()      # 'Hello world'
+text.title()           # 'Hello World' => every word first letter capital
+text.capitalize()      # 'Hello world' => first letter of a sentence is capitalized
 text.strip()           # removes whitespace from both ends
-text.replace("l", "*") # 'he**o Wor*d'
+text.replace("l", "*") # 'he**o Wor*d'. Original text remains unchanged, it makes changes and return modified text.
 text.count("l")        # 3
-text.find("World")     # 6
-text.startswith("h")   # True
-text.endswith("d")     # True
+text.find("World")     # 6 => Returns index of word or character if found, else -1 if not found.
+text.startswith("h")   # True => Checks if text starts with the specified character or word.
+text.endswith("d")     # True => Checks if text ends with the specified character or word.
 
 
 - String formatting

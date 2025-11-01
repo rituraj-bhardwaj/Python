@@ -11,9 +11,9 @@ print('Farhenheit equivalent to 37 c : ', f)
 
 # type conversion : convert "45.67" into a float and integer
 str = "45.67"
-# intValue = int(str)
-# floatValue = float(str)
-# print('int value : ', intValue, '\nfloat value : ', floatValue)
+intValue = int(str)
+floatValue = float(str)
+print('int value : ', intValue, '\nfloat value : ', floatValue)
 
 # Define z = 4 + 5j and print real and imaginary part
 complex = 4 + 5j
